@@ -81,7 +81,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝐒𝐨𝐫𝐫𝐲 {first} Y𝐨𝐮 𝐡𝐚𝐯𝐞 𝐭𝐨 𝐣𝐨𝐢𝐧 𝐦𝐲 𝐜𝐡𝐚𝐧𝐧𝐞𝐥𝐬 𝐟𝐢𝐫𝐬𝐭 𝐭𝐨 𝐚𝐜𝐜𝐞𝐬𝐬 𝐟𝐢𝐥𝐞𝐬..𝐒𝐨 𝐩𝐥𝐞𝐚𝐬𝐞 J𝐨𝐢𝐧 𝐦𝐲 2 𝐜𝐡𝐚𝐧𝐧𝐞𝐥𝐬 𝐟𝐢𝐫𝐬𝐭 𝐚𝐧𝐝 𝐜𝐥𝐢𝐜𝐤 𝐨𝐧 “Reload” 𝐛𝐮𝐭𝐭𝐨𝐧....!\n\n<blockquote><b>మీరు ఈ క్రింద ఉన్న 2 ఛానల్స్ లో జాయిన్ అవ్వాలి.. Join అయిన తర్వాత ' Reload ' Click చేస్తే File వస్తుంది</b></blockquote>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "CUSTOM_CAPTION", "{previouscaption} \n\n<blockquote><b>Forward this File to @MlFiletoLinkbot \nTo Get Fast Download & Online Streaming Links 🚀⚡️</b></blockquote>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "{previouscaption} \n\n<blockquote><b>Forward this File to @MlFiletoLinkbot \nTo Get Fast Download & Online Streaming Links 🚀⚡️</b></blockquote>")
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
